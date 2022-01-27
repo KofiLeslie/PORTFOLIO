@@ -600,6 +600,9 @@ body.loaded .overlay_effect:after{
 	display: none;
 }
 .shane_tm_down.loaded{display: block;}
+.shane_tm_down.loaded .header-img{
+	
+}
 .shane_tm_down[data-position="left"]{left: 0px;}
 .shane_tm_down[data-position="right"]{right: 0px;}
 .shane_tm_down[data-position="center"]{

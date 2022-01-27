@@ -288,7 +288,9 @@ function shane_tm_my_load(){
 	setTimeout(function(){shane_tm_preloader();},speed);
 	setTimeout(function(){jQuery('body').addClass('loaded');},speed+2000);
 	setTimeout(function(){jQuery('.shane_tm_down').addClass('loaded');},speed+2000);
-	setTimeout(function(){jQuery('.shane_tm_topbar').addClass('loaded');},speed+4200);
+	setTimeout(function(){jQuery('.shane_tm_topbar').addClass('loaded');
+	jQuery("header-img").attr("src", "img/logo/new/light.png");
+	},speed+4200);
 }
 
 // -----------------------------------------------------
